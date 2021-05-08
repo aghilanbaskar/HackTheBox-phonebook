@@ -24,6 +24,6 @@ findFlag = async () => {
     }
     console.clear();
     console.log('Flag is');
-    console.log(localStorage.getItem("flag"));
+    console.log('%c'+localStorage.getItem("flag"),"color: green ;font-weight: bold;");
 }
 findFlag();
